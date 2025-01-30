@@ -1,7 +1,8 @@
 import axios from 'axios'
 
+//Axios conectado a NODEJS
 const apiLocal = axios.create({
-    baseURL:`http://localhost:3000/api`
+    baseURL:import.meta.env.VITE_URL_API
 })
 
 export default apiLocal;
