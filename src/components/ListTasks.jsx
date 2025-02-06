@@ -22,7 +22,7 @@ export default function ListTasks(){
         <h1>Lista de tareas</h1>
         <ul>
             {data.map((item) => (
-             <li key={item.id}>
+             <li key={item._id}>
                     {item.name}
                 </li>
             ))}
