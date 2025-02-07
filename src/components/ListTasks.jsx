@@ -14,7 +14,7 @@ export default function ListTasks(){
         }
     };
         getData()
-  }, [setData]);
+  }, []);
 
   return(
     <>
